@@ -46,6 +46,13 @@ waituntil idle
 ### Drive one yourself
 **Possess** a puppet: your keys and mouse move it and you see through its eyes. Walk, jump, mine, fight, use items, swap hands, open screens. Press **O** to come back to your own body.
 
+**Drive together:** if someone's already driving, you join them. Your keys add up, it looks wherever whoever moved their mouse last is looking, and clicks come from anyone. When the main driver lets go, the next one takes over.
+
+**Watch:** ride along behind its eyes without driving (`/puppet Bob watch` or the menu's Watch button).
+
+### Jobs
+Give a puppet a job and it works like a player would: `miner` (digs out ores, tunnelling to ones it can't see), `quarry` (digs out an area, top layer first), `lumberjack` (fells trees, replants), `farmer` (harvests, resows, tills by water), `courier` (chest to chest), `fisher` (real rod, reels in on a bite), `crafter` (one recipe at a crafting table, over and over). It uses real tools at their real speed (they wear down), only digs what it can see, eats when hungry, empties its pockets into a chest when they're full, picks up its drops, and stops and tells you why when it runs out of something. Pick one on the menu's **Jobs** page (point at a chest before opening the menu to set it), or `/puppet Steve job miner radius 10 store 100 64 200`.
+
 ### They get on by themselves
 `follow` (you, a player or a mob), `goto x y z`, `wander`, `guard` (fights monsters near its spot, then goes back), `stay`. They walk straight, jump up steps and swim.
 
@@ -85,6 +92,7 @@ Among the fake player mods compared below, these are Puppets' alone:
 6. **Shadow**: leave a puppet of yourself in your place when you log off.
 7. **Named mod support**: vehicle keys, gun actions, trinket/curio slots by command.
 8. **Test hooks**: `check` results and log lines made for automated tests.
+9. **Watch mode**: look through a bot's eyes while it works or someone else drives.
 
 ---
 
@@ -126,7 +134,7 @@ Checked in November 2026. Carpet and Fake Players were tested in game (Carpet 1.
 | Go to a spot | Yes | No | Waypoints, for jobs | Not offered |
 | Wander | Yes | No | Yes | Not offered |
 | Guard a spot | Yes | No | Yes | Not offered |
-| Automated jobs (mining, lumberjack, farming, hauling, fishing, crafting) | No | No | **Yes** | Not offered |
+| Automated jobs (mining, lumberjack, farming, hauling, fishing, crafting) | **Yes**, worked by a real player: real tools wearing down, tunnelling, eating, chest runs | No | **Yes**, worked by the mob | Not offered |
 
 ### Recording, scripting, driving
 
@@ -137,7 +145,8 @@ Checked in November 2026. Carpet and Fake Players were tested in game (Carpet 1.
 | Scripts | **Plain text**, one action per line | Scarpet (a programming language) | No | Not offered |
 | One script directs several bots | **Yes** (`@Name`) | With Scarpet code | No | No |
 | Drive it with your own keys | **Yes** | No | No | **Yes** |
-| Several players drive one bot | No (the last to take it has it) | No | No | Yes (beta) |
+| Several players drive one bot | **Yes**: keys add up, look follows whoever turned last | No | No | Yes (beta) |
+| Watch through its eyes without driving | **Yes** | No | No | Not offered |
 | Drives other mods' vehicles | Yes (recorded, or Superb Warfare keys by name) | No | No | Through possession |
 
 ### Mobs
@@ -161,7 +170,7 @@ Checked in November 2026. Carpet and Fake Players were tested in game (Carpet 1.
 | Checks for automated tests | Yes | With Scarpet | No | No |
 | Technical tools (tick warp, counters, loggers) | No | **Yes**, it's Carpet's main purpose | No | No |
 
-**In short:** Carpet is the technical player's toolkit, and its `/player` is a solid command for bots on Fabric. Fake Players is the one for helper NPCs that work for you. Advanced Fake Player is about possessing bots. Puppets is built for testing: real players with a menu, recording and replay, scripts, driving, mobs, and Forge and NeoForge as well as Fabric.
+**In short:** Carpet is the technical player's toolkit, and its `/player` is a solid command for bots on Fabric. Fake Players makes helper NPCs that work for you. Advanced Fake Player is about possessing bots. Puppets does the testing side (real players, a menu, recording and replay, scripts, driving together, mobs) and the helper side (jobs worked by real players), on Fabric, Forge and NeoForge.
 
 ![Comparison](media/posters/poster-compare.png)
 

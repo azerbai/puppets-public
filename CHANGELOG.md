@@ -22,6 +22,16 @@ replay, inventory and stats; the mob test checks every mob feature below.
 - Named mod support: Superb Warfare, TACZ, Trinkets, Curios, Rackcraft.
 - `check` for automated tests; addon API with an example addon.
 
+### Jobs
+- miner, quarry, lumberjack, farmer, courier, fisher, crafter (plus guard), by command or the menu's Jobs page.
+- Real tools at real speed, digging only what it can see (tunnelling to hidden ores), eating when hungry, emptying
+  into a chest, picking up drops, and stopping with a reason when it runs out of something.
+
+### Driving together
+- A second driver joins the first: keys add up, the look follows whoever turned last; a co-driver takes over when
+  the main driver lets go.
+- Watch: look through a puppet's eyes without driving.
+
 ### Mob puppets
 - Take over any mob (`/puppet mob take`, or the menu's Mobs page); its own AI stands down.
 - Walk, look, jump, goto, come, follow, wander, stay, attack, mount; scripts and recordings; driving.

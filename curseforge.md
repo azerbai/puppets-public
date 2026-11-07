@@ -47,6 +47,8 @@ end
 
 `/puppet Bob possess` (or the Drive button) puts you in the puppet. Your keys and mouse move it and you see through its eyes. Press O to go back to your own body.
 
+If someone's already driving it, you join them: both your keys count, and it looks wherever whoever moved their mouse last is looking. Or use Watch to just ride along behind its eyes.
+
 ### Jobs
 
 Give a puppet a job and it gets on with it like a player would. It uses real tools at normal speed (they wear down), eats when it's hungry, empties its inventory into a chest when it's full, and stops and tells you why if it runs out of something.
