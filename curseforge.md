@@ -77,6 +77,10 @@ Put puppets on teams and they'll fight each other by themselves: `/puppet group 
 
 Save your own inventory as a kit (`/puppet kit save rifleman`) and hand it out (`/puppet group Red kit rifleman`). Add `respawn` to a war and the fallen come back with their kit. Puppets manning anti-air go for aircraft first, so helicopters don't get a free ride. Mob puppets can fight too.
 
+Play it in rounds: `/puppet war red blue rounds 5` and the first team to win 5 takes it, with everyone back at the start between rounds. The score stays on screen the whole time: the round, each team's kills and losses (people and vehicles), a casualty list down the side and a title when a round's won. `/puppet war hud off` if you'd rather not see it.
+
+Puppets with an Igla lock on and actually hit what they shoot at. A puppet that loses sight of its enemy goes looking for them, and one stuck in a hole digs its way out.
+
 ### Getting around
 
 Puppets find their way round walls, up steps and round lava when they walk somewhere. Give them a patrol route (`/puppet Bob patrol 0 64 0 20 64 0 20 64 20`), or just tell them in chat: "Bob, follow me", "Bob, stay", "everyone, come here".

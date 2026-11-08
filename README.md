@@ -73,7 +73,7 @@ What each kind really can do, it does: horses `jump high` and `rear`, farmer vil
 - **Screens**: click slots, press buttons, trade with villagers, write signs, as a player would.
 - **Crowds**: `spawn Bob count 5`, `/puppet all <action>`, `/puppet group <prefix> <action>`.
 - **Restarts**: puppets that were on come back where they were.
-- **Teams and war**: `/puppet war red blue` and every puppet on those teams fights the other side with swords, bows, TACZ or Superb Warfare guns, or vehicles. Kits (saved loadouts), respawning wars, anti-air, and mob puppet armies.
+- **Teams and war**: `/puppet war red blue` and every puppet on those teams fights the other side with swords, bows, TACZ or Superb Warfare guns, or vehicles. Kits (saved loadouts), rounds (`rounds 5`), respawning wars, anti-air (homing Iglas too), mob puppet armies, and the score, casualties and winner on screen.
 - **Pathfinding, patrols and chat orders**: puppets find their way round walls and lava, walk patrol routes, and take orders in chat ("Bob, follow me").
 - **Mod support by name**: Superb Warfare vehicles (keys, seats, gunners that shoot at a named target, pilots that fly planes and helicopters: `sbw orbit`, `sbw goto`, `sbw hover`), TACZ guns (shoot, reload, aim, fire mode...), Trinkets and Curios (`equip`), Rackcraft jetpacks. Everything else works through recordings.
 - **For testers**: `check health|air|food|x|y|z <op> <value>` returns 1 or 0 for command blocks and scripts, with machine-readable log lines (`PUPPET_CHECK`, `PUPPET_SCRIPT DONE`, `PUPPET_ARRIVED`).

@@ -36,6 +36,17 @@ replay, inventory and stats; the mob test checks every mob feature below.
   shoot, golems smash.
 - Anti-air: puppets crewing an HPJ-11 or LAV-AD (or holding an Igla) go for aircraft first; `fight prefer air|ground`
   to choose. Puppets fire Superb Warfare's own hand-held guns and launchers, and reload them.
+- Rounds: `/puppet war red blue rounds 5`. A round ends when one team is left standing; everyone goes back where they
+  started with what they started with, until a team has won 5. A war without rounds or respawns ends by itself when
+  one side is gone.
+- The war's score on screen: bars at the top for the round and score and for each team (still up, kills, fighters
+  and vehicles lost), a casualty list in the sidebar (every kill as `killer [weapon] victim`, every vehicle or
+  emplacement destroyed), each kill above the hotbar, and a title for each round and the winner. `/puppet war hud
+  off` hides it (config `warHud`). It's all the game's own bars, sidebar and titles, so players without the mod see it.
+- Igla homing: puppets keep their Igla's sights up while the missile flies (it only stays guided while its owner
+  aims), aim under its launch kick and lead the aircraft, and hold fire when it's too close to turn.
+- A puppet that can't see an enemy goes after the nearest one instead of standing still, and one trapped in a pit
+  digs a staircase out (config `digOut`).
 - Pathfinding: puppets walking somewhere find their way round walls, up steps and round lava (config `pathfinding`).
 - Patrols: `/puppet <name> patrol <x y z> <x y z>... [once] [wait <ticks>]`.
 - Chat orders: say "Bob, follow me", "Bob, come here", "Bob, stay", "everyone, guard" (config `chatOrders`).
@@ -61,6 +72,8 @@ replay, inventory and stats; the mob test checks every mob feature below.
 - Own mind: hand its AI back while it stays a puppet.
 
 ### Fixed during testing
+
+- TACZ: puppets no longer sprint into range (TACZ won't fire or reload on the run).
 - NeoForge: mods that send data to joining players (Curios) no longer stop puppets joining.
 - Puppets really jump, sneak and sprint (the API's hold-key methods had hidden the game's own).
 - A mob taken mid-walk stops where it stands.
