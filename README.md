@@ -72,7 +72,7 @@ What each kind really can do, it does: horses `jump high` and `rear`, farmer vil
 - **Screens**: click slots, press buttons, trade with villagers, write signs, as a player would.
 - **Crowds**: `spawn Bob count 5`, `/puppet all <action>`, `/puppet group <prefix> <action>`.
 - **Restarts**: puppets that were on come back where they were.
-- **Mod support by name**: Superb Warfare vehicle keys, TACZ guns (shoot, reload, aim, fire mode...), Trinkets and Curios (`equip`), Rackcraft jetpacks. Everything else works through recordings.
+- **Mod support by name**: Superb Warfare vehicles (keys, seats, gunners that shoot at a named target, pilots that fly an orbit with `sbw orbit`), TACZ guns (shoot, reload, aim, fire mode...), Trinkets and Curios (`equip`), Rackcraft jetpacks. Everything else works through recordings.
 - **For testers**: `check health|air|food|x|y|z <op> <value>` returns 1 or 0 for command blocks and scripts, with machine-readable log lines (`PUPPET_CHECK`, `PUPPET_SCRIPT DONE`, `PUPPET_ARRIVED`).
 - **For developers**: an addon API to add your own actions and behaviours or listen for puppets joining and leaving, with an example addon to fork. `PuppetsApi.spawn/act/takeMob/actMob` from your own mod.
 - **Server owners**: permission level, a puppet cap, rejoin after restart and shadows are all settings. Offline-mode UUIDs from names, so puppets never clash with real accounts.
@@ -147,7 +147,7 @@ Checked in November 2026. Carpet and Fake Players were tested in game (Carpet 1.
 | Drive it with your own keys | **Yes** | No | No | **Yes** |
 | Several players drive one bot | **Yes**: keys add up, look follows whoever turned last | No | No | Yes (beta) |
 | Watch through its eyes without driving | **Yes** | No | No | Not offered |
-| Drives other mods' vehicles | Yes (recorded, or Superb Warfare keys by name) | No | No | Through possession |
+| Drives other mods' vehicles | Yes (recorded, or Superb Warfare by name, including flying an orbit) | No | No | Through possession |
 
 ### Mobs
 

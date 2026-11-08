@@ -20,6 +20,9 @@ replay, inventory and stats; the mob test checks every mob feature below.
 - Shadow: a puppet of you stays when you log off.
 - Skins from any player, kept across restarts. Rejoin after restart.
 - Named mod support: Superb Warfare, TACZ, Trinkets, Curios, Rackcraft.
+- Superb Warfare: puppets change seats, fire mounted guns at a named target (the turret keeps tracking it between
+  shots), and fly aircraft in a circle with `sbw orbit <x> <y> <z> <radius>`, using the same mouse and throttle a
+  player's client sends. An AC-130 holds about ±8 blocks of a 200-block circle.
 - `check` for automated tests; addon API with an example addon.
 
 ### Jobs
