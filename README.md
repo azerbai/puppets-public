@@ -192,6 +192,11 @@ Everything here is free to share. Videos are 30 fps, filmed in real time in game
 | [Short, landscape](media/videos/puppets-short-landscape.mp4) (0:44) | X, Reddit |
 | [Versus, vertical](media/videos/puppets-versus-vertical.mp4) (0:36) | Five rounds against Carpet and Fake Players |
 | [Quick teaser, vertical](media/videos/puppets-quick-vertical.mp4) (0:23) | |
+| [TACZ 2v2, first to 5](media/videos/puppets-tacz-2v2.mp4) (2:26) | Rounds with the score on screen |
+| [Combined arms](media/videos/puppets-combined-arms.mp4) (0:36) | Bradley, Mi-28, CIWS and Iglas; the casualty list |
+| [Warfare](media/videos/puppets-warfare.mp4) | Swords, bows, an AK, a Bradley and a Mi-28 |
+| [New war features](media/videos/puppets-new-war-stuff.mp4) (2:30) | Kits, anti-air, respawning wars, mob armies, pathfinding, chat orders |
+| [AC-130 orbit](media/videos/puppets-ac130-orbit.mp4), [Helicopters](media/videos/puppets-helicopters.mp4), [Mob driver](media/videos/puppets-mob-driver.mp4) | Puppet pilots and drivers |
 
 ### Posters and thumbnails
 
