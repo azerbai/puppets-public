@@ -26,6 +26,10 @@ replay, inventory and stats; the mob test checks every mob feature below.
 - Helicopters: `sbw goto <x y z>`, `sbw hover` and `sbw orbit` fly an SBW helicopter (Mi-28, AH-6) with the collective,
   the mouse and its own hover mode; it hovers within about a block and circles within about a block of the ring.
   Gunners aim along SBW's own firing solution, so they hit from a moving aircraft.
+- Puppet warfare: `/puppet <name> team <team>`, `/puppet <name> fight [teams]`, `/puppet war red blue`. Each puppet finds the
+  nearest enemy on another team and fights with what it has: planes and helicopters circle over them, tanks close in
+  and fire, gunners track and fire, TACZ riflemen keep their distance and reload, archers aim for the drop, and the
+  rest charge in with swords (hitting the vehicle if the enemy is inside one).
 - Mob puppets drive Superb Warfare vehicles too: possess one in the driver's seat, or `/puppet mob <name> sbw <keys>`.
 - `check` for automated tests; addon API with an example addon.
 

@@ -71,6 +71,10 @@ They can also do whatever their kind can actually do: horses jump and rear, farm
 
 Turn on **unrestricted** and any mob can place and break blocks, fly, talk in chat, hit things, go faster or teleport.
 
+### Teams and war
+
+Put puppets on teams and they'll fight each other by themselves: `/puppet group Red team red`, `/puppet group Blue team blue`, then `/puppet war red blue`. Each one uses what it's got. Swords charge in, archers aim for the drop, TACZ riflemen keep their distance and reload, and puppets in Superb Warfare vehicles drive, fly and man the guns. Anything on a team counts as a target, so you can put yourself or mobs on one too.
+
 ### Other stuff
 
 - `/puppet shadow` logs you off and leaves a puppet of you standing there until you come back
