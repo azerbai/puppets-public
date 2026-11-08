@@ -75,6 +75,12 @@ Turn on **unrestricted** and any mob can place and break blocks, fly, talk in ch
 
 Put puppets on teams and they'll fight each other by themselves: `/puppet group Red team red`, `/puppet group Blue team blue`, then `/puppet war red blue`. Each one uses what it's got. Swords charge in, archers aim for the drop, TACZ riflemen keep their distance and reload, and puppets in Superb Warfare vehicles drive, fly and man the guns. Anything on a team counts as a target, so you can put yourself or mobs on one too.
 
+Save your own inventory as a kit (`/puppet kit save rifleman`) and hand it out (`/puppet group Red kit rifleman`). Add `respawn` to a war and the fallen come back with their kit. Puppets manning anti-air go for aircraft first, so helicopters don't get a free ride. Mob puppets can fight too.
+
+### Getting around
+
+Puppets find their way round walls, up steps and round lava when they walk somewhere. Give them a patrol route (`/puppet Bob patrol 0 64 0 20 64 0 20 64 20`), or just tell them in chat: "Bob, follow me", "Bob, stay", "everyone, come here".
+
 ### Other stuff
 
 - `/puppet shadow` logs you off and leaves a puppet of you standing there until you come back

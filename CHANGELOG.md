@@ -30,6 +30,15 @@ replay, inventory and stats; the mob test checks every mob feature below.
   nearest enemy on another team and fights with what it has: planes and helicopters circle over them, tanks close in
   and fire, gunners track and fire, TACZ riflemen keep their distance and reload, archers aim for the drop, and the
   rest charge in with swords (hitting the vehicle if the enemy is inside one).
+- Loadouts: `/puppet kit save <name>` keeps what you carry and wear; `/puppet <name> kit <name>` hands it out.
+- Wars that keep going: `/puppet war red blue respawn` brings the fallen back after 5s where they started, with their
+  kit. `/puppet peace` ends it. Mob puppets join wars too (`/puppet mob <name> team red`): zombies charge, skeletons
+  shoot, golems smash.
+- Anti-air: puppets crewing an HPJ-11 or LAV-AD (or holding an Igla) go for aircraft first; `fight prefer air|ground`
+  to choose. Puppets fire Superb Warfare's own hand-held guns and launchers, and reload them.
+- Pathfinding: puppets walking somewhere find their way round walls, up steps and round lava (config `pathfinding`).
+- Patrols: `/puppet <name> patrol <x y z> <x y z>... [once] [wait <ticks>]`.
+- Chat orders: say "Bob, follow me", "Bob, come here", "Bob, stay", "everyone, guard" (config `chatOrders`).
 - Mob puppets drive Superb Warfare vehicles too: possess one in the driver's seat, or `/puppet mob <name> sbw <keys>`.
 - `check` for automated tests; addon API with an example addon.
 
