@@ -23,6 +23,9 @@ replay, inventory and stats; the mob test checks every mob feature below.
 - Superb Warfare: puppets change seats, fire mounted guns at a named target (the turret keeps tracking it between
   shots), and fly aircraft in a circle with `sbw orbit <x> <y> <z> <radius>`, using the same mouse and throttle a
   player's client sends. An AC-130 holds about ±8 blocks of a 200-block circle.
+- Helicopters: `sbw goto <x y z>`, `sbw hover` and `sbw orbit` fly an SBW helicopter (Mi-28, AH-6) with the collective,
+  the mouse and its own hover mode; it hovers within about a block and circles within about a block of the ring.
+  Gunners aim along SBW's own firing solution, so they hit from a moving aircraft.
 - Mob puppets drive Superb Warfare vehicles too: possess one in the driver's seat, or `/puppet mob <name> sbw <keys>`.
 - `check` for automated tests; addon API with an example addon.
 

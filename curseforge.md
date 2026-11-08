@@ -76,7 +76,7 @@ Turn on **unrestricted** and any mob can place and break blocks, fly, talk in ch
 - `/puppet shadow` logs you off and leaves a puppet of you standing there until you come back
 - Puppets that were online come back after a restart
 - `/puppet spawn Bob count 5` for a crowd, `/puppet all <action>` to control them all at once
-- Built-in support for Superb Warfare vehicles (puppets drive, man the guns and shoot at whoever you name, and can fly a plane in a circle with `sbw orbit`; mob puppets can drive too), TACZ guns, Trinkets and Curios. Everything else works through recordings
+- Built-in support for Superb Warfare vehicles (puppets drive, man the guns and shoot at whoever you name, and can fly planes and helicopters: hover, fly to a spot, or circle one with `sbw orbit`; mob puppets can drive too), TACZ guns, Trinkets and Curios. Everything else works through recordings
 - `check` commands that return 1 or 0, handy for command blocks and automated tests
 - An addon API if you want to add your own actions or behaviours (there's an example addon)
 - 100 puppets cost about 7ms a tick in my testing
