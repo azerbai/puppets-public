@@ -23,6 +23,7 @@ replay, inventory and stats; the mob test checks every mob feature below.
 - Superb Warfare: puppets change seats, fire mounted guns at a named target (the turret keeps tracking it between
   shots), and fly aircraft in a circle with `sbw orbit <x> <y> <z> <radius>`, using the same mouse and throttle a
   player's client sends. An AC-130 holds about ±8 blocks of a 200-block circle.
+- Mob puppets drive Superb Warfare vehicles too: possess one in the driver's seat, or `/puppet mob <name> sbw <keys>`.
 - `check` for automated tests; addon API with an example addon.
 
 ### Jobs
