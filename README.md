@@ -10,7 +10,7 @@ By [@azerbaiGH](https://twitter.com/azerbaiGH). Fabric, Forge and NeoForge.
 | --- | --- |
 | 1.20.1 | Fabric, Forge |
 | 1.21.1 | Fabric, Forge, NeoForge |
-| 1.21.11 | Fabric, NeoForge |
+| 1.21.11 | Fabric, Forge, NeoForge |
 | 26.3 | Fabric, NeoForge |
 
 Only the server needs Puppets. Install it in your own game too for the menu and for driving puppets.

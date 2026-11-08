@@ -4,7 +4,7 @@
 
 The first release.
 
-**Builds:** Minecraft 1.20.1 (Fabric, Forge), 1.21.1 (Fabric, Forge, NeoForge), 1.21.11 (Fabric, NeoForge), 26.3 (Fabric, NeoForge). Every
+**Builds:** Minecraft 1.20.1 (Fabric, Forge), 1.21.1 (Fabric, Forge, NeoForge), 1.21.11 (Fabric, Forge, NeoForge), 26.3 (Fabric, NeoForge). Every
 build passes the same in-game test: spawning, walking, jumping, following, scripts, the menu, driving, recording and
 replay, inventory and stats; the mob test checks every mob feature below.
 
