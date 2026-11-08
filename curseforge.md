@@ -2,7 +2,7 @@
 
 ## Summary (under 90 words)
 
-Puppets lets you spawn fake players that the server treats as real ones, then control them. Press O for a menu or use /puppet. They walk, mine, build, fight, follow you, run simple scripts, or replay something you recorded yourself (other mods' keys included). You can take one over and play as it, give them jobs like mining or farming, and take control of mobs too. Made for testing multiplayer stuff on your own. Fabric, Forge and NeoForge, 1.20.1 / 1.21.1 / 1.21.11.
+Puppets lets you spawn fake players that the server treats as real ones, then control them. Press O for a menu or use /puppet. They walk, mine, build, fight, follow you, run simple scripts, or replay something you recorded yourself (other mods' keys included). You can take one over and play as it, give them jobs like mining or farming, and take control of mobs too. Made for testing multiplayer stuff on your own. Fabric, Forge and NeoForge, 1.20.1 to 26.3.
 
 ## Description
 
@@ -76,7 +76,7 @@ Turn on **unrestricted** and any mob can place and break blocks, fly, talk in ch
 - `/puppet shadow` logs you off and leaves a puppet of you standing there until you come back
 - Puppets that were online come back after a restart
 - `/puppet spawn Bob count 5` for a crowd, `/puppet all <action>` to control them all at once
-- Built-in support for Superb Warfare vehicles, TACZ guns, Trinkets and Curios. Everything else works through recordings
+- Built-in support for Superb Warfare vehicles (puppets drive, man the guns and shoot at whoever you name, and can fly a plane in a circle with `sbw orbit`; mob puppets can drive too), TACZ guns, Trinkets and Curios. Everything else works through recordings
 - `check` commands that return 1 or 0, handy for command blocks and automated tests
 - An addon API if you want to add your own actions or behaviours (there's an example addon)
 - 100 puppets cost about 7ms a tick in my testing
@@ -88,8 +88,9 @@ Turn on **unrestricted** and any mob can place and break blocks, fly, talk in ch
 | 1.20.1 | Fabric, Forge |
 | 1.21.1 | Fabric, Forge, NeoForge |
 | 1.21.11 | Fabric, NeoForge |
+| 26.3 | Fabric, NeoForge |
 
-Fabric needs Fabric API. 26.x is being worked on.
+Fabric needs Fabric API.
 
 ### FAQ
 
