@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.1.0 (2026-11-13)
+
+**Five more Minecraft versions.** Puppets now runs on 1.16.5, 1.18.2, 1.19.2, 1.20.4 and 1.21.4 as well, on Fabric and Forge, plus NeoForge from 1.20.4. That's nine versions and 22 builds in all. Every build passes the same in-game test: spawning, walking, jumping, following, scripts, the menu, driving, recording and replay, and inventory. The 1.16.5 build runs on Java 8, like the game itself.
+
+**Smarter wars**
+- Tanks and aircraft go looking for enemies across the whole battlefield (up to 1,024 blocks), instead of only what's nearby. Gunners hold fire until a target is close enough to hit.
+- An aircraft with no enemy in sight circles where it is, instead of falling out of the sky. A helicopter on the ground lifts off and waits.
+- A tank stuck on a rock or a wall backs off at an angle and tries again.
+- The War page opens without a puppet picked. The whole-war buttons work, and the ones for a single puppet are greyed out.
+
+**For addon makers**
+- Addons can add their own commands, run something every server tick, and add pages to the menu's War screen.
+- A new war advisor hook lets an addon steer puppets in a fight: where to move, when to hold fire, where to fly, how wide to circle and how close to drive.
+
+**On the older versions (1.16.5 to 1.19.2)**, signs only have a front, so recorded sign edits all go on the front. Superb Warfare and TACZ support is only on the versions those mods exist for.
+
 ## 1.0.0 (2026-11-08)
 
 The first release.

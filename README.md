@@ -8,8 +8,13 @@ By [@azerbaiGH](https://twitter.com/azerbaiGH). Fabric, Forge and NeoForge.
 
 | Minecraft | Loaders |
 | --- | --- |
+| 1.16.5 | Fabric, Forge |
+| 1.18.2 | Fabric, Forge |
+| 1.19.2 | Fabric, Forge |
 | 1.20.1 | Fabric, Forge |
+| 1.20.4 | Fabric, Forge, NeoForge |
 | 1.21.1 | Fabric, Forge, NeoForge |
+| 1.21.4 | Fabric, Forge, NeoForge |
 | 1.21.11 | Fabric, Forge, NeoForge |
 | 26.3 | Fabric, NeoForge |
 
@@ -114,7 +119,7 @@ Checked in November 2026. Carpet and Fake Players were tested in game (Carpet 1.
 | Fabric | Yes | Yes | Yes | Yes |
 | Forge | Yes | No | Yes | Yes |
 | NeoForge | Yes | No | Yes | Not in its supported table |
-| Minecraft versions | 1.20.1, 1.21.1, 1.21.11, 26.3 | 1.14 to 26.3 | 1.19.2 to 26.2 | 1.20.1 (per its table) |
+| Minecraft versions | 1.16.5, 1.18.2, 1.19.2, 1.20.1, 1.20.4, 1.21.1, 1.21.4, 1.21.11, 26.3 | 1.14 to 26.3 | 1.19.2 to 26.2 | 1.20.1 (per its table) |
 
 ### Telling it what to do
 
