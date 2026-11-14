@@ -6,17 +6,17 @@ By [@azerbaiGH](https://twitter.com/azerbaiGH). Fabric, Forge and NeoForge.
 
 ![Puppets](media/posters/poster-banner.png)
 
-| Minecraft | Loaders |
-| --- | --- |
-| 1.16.5 | Fabric, Forge |
-| 1.18.2 | Fabric, Forge |
-| 1.19.2 | Fabric, Forge |
-| 1.20.1 | Fabric, Forge |
-| 1.20.4 | Fabric, Forge, NeoForge |
-| 1.21.1 | Fabric, Forge, NeoForge |
-| 1.21.4 | Fabric, Forge, NeoForge |
-| 1.21.11 | Fabric, Forge, NeoForge |
-| 26.3 | Fabric, NeoForge |
+| Minecraft | Fabric | Forge | NeoForge | Java |
+| --- | :---: | :---: | :---: | --- |
+| 1.16.5 | ✓ | ✓ | – | 8 |
+| 1.18.2 | ✓ | ✓ | – | 17 |
+| 1.19.2 | ✓ | ✓ | – | 17 |
+| 1.20.1 | ✓ | ✓ | – | 17 |
+| 1.20.4 | ✓ | ✓ | ✓ | 17 |
+| 1.21.1 | ✓ | ✓ | ✓ | 21 |
+| 1.21.4 | ✓ | ✓ | ✓ | 21 |
+| 1.21.11 | ✓ | ✓ | ✓ | 21 |
+| 26.3 | ✓ | – | ✓ | 25 |
 
 Only the server needs Puppets. Install it in your own game too for the menu and for driving puppets.
 

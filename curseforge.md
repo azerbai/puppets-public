@@ -2,7 +2,7 @@
 
 ## Summary (under 90 words)
 
-Puppets lets you spawn fake players that the server treats as real ones, then control them. Press O for a menu or use /puppet. They walk, mine, build, fight, follow you, run simple scripts, or replay something you recorded yourself (other mods' keys included). You can take one over and play as it, give them jobs like mining or farming, and take control of mobs too. Made for testing multiplayer stuff on your own. Fabric, Forge and NeoForge, 1.16.5 to 26.3.
+Puppets lets you spawn fake players that the server treats as real ones, then control them. Press O for a menu or use /puppet. They walk, mine, build, fight, follow you, run simple scripts, or replay something you recorded yourself (other mods' keys included). You can take one over and play as it, give them jobs like mining or farming, and take control of mobs too. Made for testing multiplayer stuff on your own. Fabric, Forge and NeoForge, nine versions from 1.16.5 to 26.3.
 
 ## Description
 
@@ -97,19 +97,26 @@ Puppets find their way round walls, up steps and round lava when they walk somew
 
 ### Versions
 
-| Minecraft | Loaders |
-| --- | --- |
-| 1.16.5 | Fabric, Forge |
-| 1.18.2 | Fabric, Forge |
-| 1.19.2 | Fabric, Forge |
-| 1.20.1 | Fabric, Forge |
-| 1.20.4 | Fabric, Forge, NeoForge |
-| 1.21.1 | Fabric, Forge, NeoForge |
-| 1.21.4 | Fabric, Forge, NeoForge |
-| 1.21.11 | Fabric, Forge, NeoForge |
-| 26.3 | Fabric, NeoForge |
+Nine Minecraft versions, 22 builds. Grab the file for your version and loader.
 
-Fabric needs Fabric API. Quilt loads Fabric mods, so the Fabric builds from 1.18.2 on are listed for Quilt too (not tested on Quilt yet).
+| Minecraft | Fabric | Forge | NeoForge | Java |
+| --- | :---: | :---: | :---: | --- |
+| 1.16.5 | ✓ | ✓ | – | 8 |
+| 1.18.2 | ✓ | ✓ | – | 17 |
+| 1.19.2 | ✓ | ✓ | – | 17 |
+| 1.20.1 | ✓ | ✓ | – | 17 |
+| 1.20.4 | ✓ | ✓ | ✓ | 17 |
+| 1.21.1 | ✓ | ✓ | ✓ | 21 |
+| 1.21.4 | ✓ | ✓ | ✓ | 21 |
+| 1.21.11 | ✓ | ✓ | ✓ | 21 |
+| 26.3 | ✓ | – | ✓ | 25 |
+
+- Fabric needs Fabric API.
+- No NeoForge before 1.20.4: on 1.20.1 NeoForge was still basically Forge, and before that it didn't exist. No Forge on 26.3 yet.
+- The 1.16.5 build runs on Java 8, same as the game.
+- Quilt loads Fabric mods, so the Fabric builds from 1.18.2 on are listed for Quilt too. I haven't tested on Quilt yet.
+- Superb Warfare and TACZ support only applies on the versions those mods exist for.
+- On 1.19.2 and older, signs only have a front, so a recorded sign edit always goes on the front.
 
 ### FAQ
 
